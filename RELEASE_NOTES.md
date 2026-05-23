@@ -37,4 +37,9 @@ C46F19F666D3A098E2991CCBF8CE3C72474B112B95415F5655B2D7C4E75D78E0  ollama-windows
 
 ### Warning
 
-This is an unofficial community build. The desktop installer is not digitally signed, so Windows SmartScreen may warn. The desktop app may also offer official updates, which can replace this custom `gfx1150` build.
+This is an unofficial community build.
+
+- The desktop installer is not digitally signed, so Windows SmartScreen may warn.
+- The desktop GUI may offer or perform official Ollama updates.
+- An official update can replace this custom `gfx1150` ROCm build with a stock build.
+- If Radeon 890M GPU acceleration stops working after a GUI update, reinstall this custom build or use the CLI zip release.

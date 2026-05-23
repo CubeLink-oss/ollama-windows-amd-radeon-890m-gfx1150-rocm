@@ -28,6 +28,15 @@ The release zip is intended for people searching for:
 
 The build was tested locally on Windows 11 with an AMD Radeon 890M.
 
+## Important Warning
+
+The desktop installer is an unsigned, unofficial community build.
+
+- Windows SmartScreen may warn because `OllamaSetup-gfx1150-radeon-890m-desktop.exe` is not digitally signed.
+- The Ollama desktop GUI includes official update behavior.
+- If the GUI updates itself, it may replace this custom `gfx1150` ROCm build with an official stock build.
+- If GPU acceleration stops working after an update, reinstall this custom build or use the CLI zip release.
+
 Test machine keywords:
 
 ```text
@@ -71,7 +80,7 @@ C46F19F666D3A098E2991CCBF8CE3C72474B112B95415F5655B2D7C4E75D78E0
 320814BA15E05E112763169DF2DD6A1F57BDD3FF5C162A3E2E868EF7AB76AE42
 ```
 
-`OllamaSetup-gfx1150-radeon-890m-desktop.exe` is an unsigned desktop installer build. Windows SmartScreen may warn because it is not code signed.
+`OllamaSetup-gfx1150-radeon-890m-desktop.exe` is an unsigned desktop installer build. Windows SmartScreen may warn because it is not code signed. The GUI may also auto-update and overwrite this custom `gfx1150` build.
 
 ## Quick Start
 
@@ -168,7 +177,7 @@ The installer target then packages it as:
 C:\ollama\dist\OllamaSetup.exe
 ```
 
-Be careful with the GUI and installer because Ollama's desktop app includes update behavior. An official update may replace this custom `gfx1150` build with a stock build that does not include the same ROCm target.
+Be careful with the GUI and installer because Ollama's desktop app includes update behavior. An official update may replace this custom `gfx1150` build with a stock build that does not include the same ROCm target. If this happens, GPU acceleration on Radeon 890M may disappear until you reinstall the custom build.
 
 ## What Changed
 
