@@ -1,6 +1,12 @@
 # Release Notes - Ollama AMD GPU on Windows - Custom Build (890M)
 
-## v0.25.0-rc0-gfx1150-rocm-windows-2026-05-23
+## v0.25.0-rc0-8-g275f122-gfx1150-rocm-windows
+
+Based on Ollama version:
+
+```text
+0.25.0-rc0-8-g275f122-dirty
+```
 
 Unofficial **Ollama AMD GPU on Windows - Custom Build (890M)** ROCm/HIP build for AMD Radeon 890M Graphics, `gfx1150`.
 
