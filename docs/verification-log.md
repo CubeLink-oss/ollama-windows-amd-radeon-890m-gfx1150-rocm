@@ -5,9 +5,18 @@ Date: 2026-05-23
 Host:
 
 - Windows 11 Pro for Workstations
+- Processor: AMD Ryzen AI 9 HX PRO 370 w/ Radeon 890M
 - AMD Radeon(TM) 890M Graphics
 - HIP SDK 6.4.2
 - ROCm path: `C:\Program Files\AMD\ROCm\6.4`
+
+Search keywords:
+
+```text
+Ollama AMD GPU on Windows - Custom Build (890M)
+AMD Ryzen AI 9 HX PRO 370 w/ Radeon 890M
+AMD Radeon 890M gfx1150 ROCm HIP Windows
+```
 
 Build:
 
@@ -76,4 +85,3 @@ Response:
   "done": true
 }
 ```
-

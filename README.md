@@ -1,10 +1,11 @@
-# Ollama for AMD Radeon 890M gfx1150 on Windows 11 with ROCm HIP
+# Ollama AMD GPU on Windows - Custom Build (890M, gfx1150, ROCm HIP)
 
-Unofficial Windows build notes and binaries for running Ollama with AMD ROCm/HIP acceleration on the AMD Radeon 890M iGPU, RDNA 3.5, `gfx1150`.
+Unofficial Windows build notes and binaries for **Ollama AMD GPU on Windows - Custom Build (890M)** with AMD ROCm/HIP acceleration on the AMD Radeon 890M iGPU, RDNA 3.5, `gfx1150`.
 
 This repo documents a working build of Ollama for:
 
 - Windows 11 Pro for Workstations
+- Processor: AMD Ryzen AI 9 HX PRO 370 w/ Radeon 890M
 - AMD Radeon 890M Graphics
 - ROCm/HIP SDK 6.4.2 for Windows
 - Ollama source commit `275f122c`
@@ -14,14 +15,27 @@ This repo documents a working build of Ollama for:
 The release zip is intended for people searching for:
 
 - Ollama AMD Radeon 890M Windows
+- Ollama AMD GPU on Windows Custom Build 890M
+- Ollama AMD Ryzen AI 9 HX PRO 370 w/ Radeon 890M
 - Ollama gfx1150 ROCm Windows
 - Ollama AMD 890M HIP SDK
 - Ollama RDNA 3.5 Windows ROCm
 - Ollama Ryzen AI HX 370 Radeon 890M
+- Ollama Ryzen AI 9 HX PRO 370 ROCm
+- Ollama Windows AMD iGPU ROCm
 
 ## Status
 
 The build was tested locally on Windows 11 with an AMD Radeon 890M.
+
+Test machine keywords:
+
+```text
+Processor: AMD Ryzen AI 9 HX PRO 370 w/ Radeon 890M
+GPU: AMD Radeon(TM) 890M Graphics
+Architecture: gfx1150
+Topic: Ollama AMD GPU on Windows - Custom Build (890M)
+```
 
 Successful runtime log lines:
 
@@ -164,4 +178,3 @@ Only one source configuration change is required for the ROCm backend:
 ## Disclaimer
 
 This is an unofficial community build. It is not endorsed by Ollama or AMD. Use at your own risk, especially if you install it over an existing Ollama desktop installation.
-
