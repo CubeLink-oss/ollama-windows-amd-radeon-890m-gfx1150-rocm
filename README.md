@@ -61,13 +61,17 @@ See GitHub Releases and download:
 
 ```text
 ollama-windows-amd64-rocm-gfx1150-radeon-890m.zip
+OllamaSetup-gfx1150-radeon-890m-desktop.exe
 ```
 
 SHA256:
 
 ```text
 C46F19F666D3A098E2991CCBF8CE3C72474B112B95415F5655B2D7C4E75D78E0
+320814BA15E05E112763169DF2DD6A1F57BDD3FF5C162A3E2E868EF7AB76AE42
 ```
+
+`OllamaSetup-gfx1150-radeon-890m-desktop.exe` is an unsigned desktop installer build. Windows SmartScreen may warn because it is not code signed.
 
 ## Quick Start
 
@@ -152,7 +156,7 @@ C:\ollama\dist\ollama-windows-amd64.zip
 
 ## Notes About the GUI
 
-The tested release focuses on `ollama.exe`, the CLI/server/runtime. Ollama's Windows GUI is a separate target named `app`, producing:
+The release includes both the CLI/server runtime zip and a desktop installer. Ollama's Windows GUI is a separate target named `app`, producing:
 
 ```text
 C:\ollama\dist\windows-ollama-app-amd64.exe

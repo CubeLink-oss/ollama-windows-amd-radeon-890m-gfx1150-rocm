@@ -14,6 +14,8 @@ Target system keywords:
 ### Included
 
 - `ollama.exe`
+- `OllamaSetup-gfx1150-radeon-890m-desktop.exe`
+- `windows-ollama-app-amd64.exe` inside the installer as `ollama app.exe`
 - CPU backend DLLs
 - ROCm/HIP backend DLLs
 - `ggml-hip.dll`
@@ -30,8 +32,9 @@ Target system keywords:
 
 ```text
 C46F19F666D3A098E2991CCBF8CE3C72474B112B95415F5655B2D7C4E75D78E0  ollama-windows-amd64-rocm-gfx1150-radeon-890m.zip
+320814BA15E05E112763169DF2DD6A1F57BDD3FF5C162A3E2E868EF7AB76AE42  OllamaSetup-gfx1150-radeon-890m-desktop.exe
 ```
 
 ### Warning
 
-This is an unofficial community build. It is a CLI/server runtime build, not the Windows desktop GUI installer.
+This is an unofficial community build. The desktop installer is not digitally signed, so Windows SmartScreen may warn. The desktop app may also offer official updates, which can replace this custom `gfx1150` build.

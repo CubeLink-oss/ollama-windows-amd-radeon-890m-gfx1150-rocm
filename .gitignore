@@ -4,3 +4,4 @@ node_modules/
 dist/
 build/
 release/*.zip
+release/*.exe
